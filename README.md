@@ -132,7 +132,7 @@ Você pode usar, modificar e redistribuir esta include **desde que os créditos 
 ## 🧠 Créditos
 
 Include criada por:  
-**Marcos Aurélio Oliveira Silva (MALAK)** — Programador desde 2017, criador da Eagle Vision Team, Reduto Online Roleplay, e autor do curso mais completo de Pawn SA-MP até 2025.
+**Marcos Aurélio Oliveira Silva (MALAK)** — Programador desde 2017, criador e autor do curso mais completo de Pawn SA-MP até 2025.
 
 ---
 
