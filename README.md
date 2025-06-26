@@ -14,7 +14,7 @@
 
 M_professional_PRO.inc é uma include profissional para SA-MP escrita em Pawn, que oferece uma abstração avançada para manipulação de dados do jogador, veículos, armas, mensagens e outras funcionalidades essenciais para gamemodes modernos.
 
-Esta include facilita a organização, padronização e manutenção do código, utilizando macros com placeholders `%0`, `%1` para maior flexibilidade e desempenho.
+Esta include facilita a organização, padronização e manutenção do código, para maior flexibilidade e desempenho.
 
 > **AVISO IMPORTANTE:**  
 > É proibido remover os créditos do autor, alegar coautoria ou modificar sem autorização.  
