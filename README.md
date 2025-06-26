@@ -31,7 +31,7 @@ Esta include facilita a organização, padronização e manutenção do código,
 #include "M_professional_PRO.inc"
 ```
 
-3. Utilize as funções/macros para manipular informações do jogador, veículos, armas, mensagens e muito mais.  
+3. Utilize as funções para manipular informações do jogador, veículos, armas, mensagens e muito mais.  
 4. Consulte a documentação abaixo para entender cada função e macro.
 
 ---
