@@ -75,11 +75,11 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ---
 
-## Documentação das Funções e Macros
+## Documentação das Funções 
 
 ### Admin
 
-| Função / Macro                          | Descrição                                 |
+| Função                                |     Descrição                            |
 |---------------------------------------|------------------------------------------|
 | `DefinePlayerAdminLevelEnumPRO(playerid, valor)` | Define o nível de admin do jogador.       |
 | `AddPlayerAdminLevelEnumPRO(playerid, valor)`    | Adiciona ao nível de admin.                |
