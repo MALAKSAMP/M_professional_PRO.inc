@@ -14,7 +14,7 @@
 
 M_professional_PRO.inc é uma include profissional para SA-MP escrita em Pawn, que oferece uma abstração avançada para manipulação de dados do jogador, veículos, armas, mensagens e outras funcionalidades essenciais para gamemodes modernos.
 
-Esta include facilita a organização, padronização e manutenção do código, utilizando macros com placeholders `%0`, `%1` para maior flexibilidade e desempenho.
+Esta include facilita a organização, padronização e manutenção do código, para maior flexibilidade e desempenho.
 
 > **AVISO IMPORTANTE:**  
 > É proibido remover os créditos do autor, alegar coautoria ou modificar sem autorização.  
@@ -31,8 +31,8 @@ Esta include facilita a organização, padronização e manutenção do código,
 #include "M_professional_PRO.inc"
 ```
 
-3. Utilize as funções/macros para manipular informações do jogador, veículos, armas, mensagens e muito mais.  
-4. Consulte a documentação abaixo para entender cada função e macro.
+3. Utilize as funções para manipular informações do jogador, veículos, armas, mensagens e muito mais.  
+4. Consulte a documentação abaixo para entender cada função
 
 ---
 
@@ -75,11 +75,11 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ---
 
-## Documentação das Funções e Macros
+## Documentação das Funções
 
 ### Admin
 
-| Função / Macro                          | Descrição                                 |
+| Função                                | Descrição                                |
 |---------------------------------------|------------------------------------------|
 | `DefinePlayerAdminLevelEnumPRO(playerid, valor)` | Define o nível de admin do jogador.       |
 | `AddPlayerAdminLevelEnumPRO(playerid, valor)`    | Adiciona ao nível de admin.                |
@@ -89,7 +89,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Cargo
 
-| Função / Macro                          | Descrição                                 |
+| Função                                | Descrição                                |
 |---------------------------------------|------------------------------------------|
 | `DefinePlayerCargoEnumPRO(playerid, valor)` | Define cargo do jogador.                  |
 | `RemovePlayerCargoEnumPRO(playerid, valor)` | Remove do cargo do jogador.               |
@@ -99,7 +99,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Líder de Organização
 
-| Função / Macro                            | Descrição                                   |
+| Função                                | Descrição                                    |
 |-----------------------------------------|--------------------------------------------|
 | `DefinePlayerLiderOrgEnumPRO(playerid, idorg)` | Define ID da organização do líder.          |
 | `RemovePlayerLiderOrgEnumPRO(playerid, valor)` | Remove valor do líder.                      |
@@ -109,7 +109,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Skin
 
-| Função / Macro                      | Descrição                                     |
+| Função                                | Descrição                                |
 |-----------------------------------|----------------------------------------------|
 | `DefinePlayerSkinEnumPRO(playerid, skinid)` | Define skin original do jogador.               |
 | `GetPlayerSkinEnumPRO(playerid)`           | Retorna skin original.                         |
@@ -119,7 +119,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Level
 
-| Função / Macro                      | Descrição                                     |
+| Função                                | Descrição                                |
 |-----------------------------------|----------------------------------------------|
 | `DefinePlayerLevelEnumPRO(playerid, valor)` | Define o nível do jogador.                      |
 | `AddPlayerLevelEnumPRO(playerid, valor)`    | Adiciona valor ao nível.                         |
@@ -130,7 +130,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Experiência (EXP)
 
-| Função / Macro                      | Descrição                                     |
+| Função                                | Descrição                                |
 |-----------------------------------|----------------------------------------------|
 | `DefinePlayerEXP_EnumPRO(playerid, valor)` | Define a experiência do jogador.                 |
 | `AddPlayerEXP_EnumPRO(playerid, valor)`    | Adiciona experiência.                            |
@@ -141,7 +141,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Dinheiro (Grana)
 
-| Função / Macro                      | Descrição                                     |
+| Função                                | Descrição                                |
 |-----------------------------------|----------------------------------------------|
 | `DefinePlayerGranaEnumPRO(playerid, valor)` | Define dinheiro do jogador.                      |
 | `AddPlayerGranaEnumPRO(playerid, valor)`    | Adiciona dinheiro.                               |
@@ -152,7 +152,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Coins
 
-| Função / Macro                      | Descrição                                     |
+| Função                            | Descrição                                    |
 |-----------------------------------|----------------------------------------------|
 | `DefinePlayerCoinsEnumPRO(playerid, valor)` | Define coins do jogador.                         |
 | `AddPlayerCoinsEnumPRO(playerid, valor)`    | Adiciona coins.                                  |
@@ -163,7 +163,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Saldo Banco e Caixa
 
-| Função / Macro                          | Descrição                                     |
+| Função                                | Descrição                                    |
 |---------------------------------------|----------------------------------------------|
 | `DefinePlayerSaldoBancoEnumPRO(playerid, valor)` | Define saldo bancário.                          |
 | `AddPlayerSaldoBancoEnumPRO(playerid, valor)`    | Adiciona saldo bancário.                        |
@@ -178,7 +178,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Vida e Colete
 
-| Função / Macro                      | Descrição                                     |
+| Função                            | Descrição                                    |
 |-----------------------------------|----------------------------------------------|
 | `DefinePlayerVidaEnumPRO(playerid, valor)` | Define vida do jogador.                          |
 | `AddPlayerVidaEnumPRO(playerid, valor)`    | Adiciona vida.                                   |
@@ -193,7 +193,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Status de Login
 
-| Função / Macro                      | Descrição                                     |
+| Função                            | Descrição                                    |
 |-----------------------------------|----------------------------------------------|
 | `DefinePlayerLogedEnumPRO(playerid, valor)` | Define status de login (logado/não).            |
 | `RemovePlayerLogedEnumPRO(playerid, valor)` | Remove status de login.                          |
@@ -207,7 +207,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Posições 3D e Spawn
 
-| Função / Macro                                          | Descrição                                     |
+| Função                                                | Descrição                                    |
 |-------------------------------------------------------|----------------------------------------------|
 | `DefinePlayerPos3DPRO(playerid, Float:x, Float:y, Float:z)` | Define posição do jogador.                       |
 | `GetPlayerPos3DPRO(playerid, &Float:x, &Float:y, &Float:z)` | Obtém posição do jogador.                        |
@@ -219,7 +219,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Manipulação de Dinheiro, Vida, Colete (funções SA-MP)
 
-| Função / Macro                      | Descrição                                     |
+| Função                            | Descrição                                    |
 |-----------------------------------|----------------------------------------------|
 | `DefinePlayerMoneyPRO(playerid, valor)`        | Dá dinheiro (GivePlayerMoney).                 |
 | `DefinePlayerHealthPRO(playerid, valor)`       | Define vida (SetPlayerHealth).                  |
@@ -230,7 +230,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Bônus, Animações e Interiores
 
-| Função / Macro                      | Descrição                                     |
+| Função                            | Descrição                                    |
 |-----------------------------------|----------------------------------------------|
 | `DesativeBonusForPlayerPRO(playerid, valor)`  | Ativa/desativa bônus para jogador.             |
 | `DesativeBonusForAllPRO(valor)`                    | Ativa/desativa bônus para todos.              |
@@ -242,7 +242,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Skin, Armas e Spawn
 
-| Função / Macro                      | Descrição                                     |
+| Função                            | Descrição                                    |
 |-----------------------------------|----------------------------------------------|
 | `DefinePlayerSkinPRO(playerid, skin_id)`          | Define skin do jogador.                         |
 | `DefinePlayerWeaponPRO(playerid, arma_id, muni)`  | Dá arma com munição.                            |
@@ -253,7 +253,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Veículos
 
-| Função / Macro                      | Descrição                                     |
+| Função                            | Descrição                                    |
 |-----------------------------------|----------------------------------------------|
 | `DefinePlayerInVehiclePRO(playerid, veh_id, seat)` | Coloca jogador em veículo.                      |
 | `DefineLinkInVehicleInteriorPRO(playerid, veh_id, seat)` | Linka veículo a interior.                  |
@@ -272,7 +272,7 @@ DefineSendPlayerMessagePRO(0, Definecor_verdePRO, "Bem-vindo ao servidor!");
 
 ### Outras Utilidades
 
-| Função / Macro                      | Descrição                                     |
+| Função                            | Descrição                                    |
 |-----------------------------------|----------------------------------------------|
 | `DefineSendRconCommandPRO(command)` | Envia comando RCON.                          |
 | `InLoopRunInArrayPRO(i, array)`     | Loop com `for` para arrays (com `sizeof`).  |
