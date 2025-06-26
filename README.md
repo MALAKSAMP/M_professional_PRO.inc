@@ -54,7 +54,64 @@ new adminLevel = GetPlayerAdminLevelEnumPRO(0);
 ### Definir e manipular dinheiro do jogador
 
 ```pawn
-// Define o dinheiro do jogador 0 para 10.000
+// Define o nível de admin do jogador 0 como 5
+DefinePlayerAdminLevelEnumPRO(0, 5);
+
+// Adiciona 1 nível de admin ao jogador 0
+AddPlayerAdminLevelEnumPRO(0, 1);
+
+// Obtém o nível de admin do jogador 0
+new adminLevel = GetPlayerAdminLevelEnumPRO(0);
+
+// Define o cargo do jogador 0 como 3
+DefinePlayerCargoEnumPRO(0, 3);
+
+// Remove 1 nível do cargo do jogador 0
+RemovePlayerCargoEnumPRO(0, 1);
+
+// Obtém o cargo atual do jogador 0
+new cargo = GetPlayerCargoEnumPRO(0);
+
+// Define o jogador 0 como líder da organização de ID 2
+DefinePlayerLiderOrgEnumPRO(0, 2);
+
+// Remove 1 valor do líder da organização do jogador 0
+RemovePlayerLiderOrgEnumPRO(0, 1);
+
+// Obtém o ID da organização que o jogador 0 lidera
+new liderOrg = GetPlayerLiderOrgEnumPRO(0);
+
+// Define a skin original do jogador 0 como 123
+DefinePlayerSkinEnumPRO(0, 123);
+
+// Obtém a skin original do jogador 0
+new skinId = GetPlayerSkinEnumPRO(0);
+
+// Define o level do jogador 0 como 10
+DefinePlayerLevelEnumPRO(0, 10);
+
+// Adiciona 2 levels ao jogador 0
+AddPlayerLevelEnumPRO(0, 2);
+
+// Remove 1 level do jogador 0
+RemovePlayerLevelEnumPRO(0, 1);
+
+// Obtém o level atual do jogador 0
+new level = GetPlayerLevelEnumPRO(0);
+
+// Define a EXP do jogador 0 como 500
+DefinePlayerEXP_EnumPRO(0, 500);
+
+// Adiciona 100 EXP ao jogador 0
+AddPlayerEXP_EnumPRO(0, 100);
+
+// Remove 50 EXP do jogador 0
+RemovePlayerEXP_EnumPRO(0, 50);
+
+// Obtém a EXP atual do jogador 0
+new exp = GetPlayerEXP_EnumPRO(0);
+
+// Define o dinheiro do jogador 0 para 10000
 DefinePlayerGranaEnumPRO(0, 10000);
 
 // Adiciona 500 ao dinheiro do jogador 0
@@ -65,6 +122,138 @@ RemovePlayerGranaEnumPRO(0, 200);
 
 // Obtém o dinheiro atual do jogador 0
 new dinheiro = GetPlayerGranaEnumPRO(0);
+
+// Define coins do jogador 0 como 300
+DefinePlayerCoinsEnumPRO(0, 300);
+
+// Adiciona 50 coins ao jogador 0
+AddPlayerCoinsEnumPRO(0, 50);
+
+// Remove 20 coins do jogador 0
+RemovePlayerCoinsEnumPRO(0, 20);
+
+// Obtém coins atuais do jogador 0
+new coins = GetPlayerCoinsEnumPRO(0);
+
+// Define saldo do banco do jogador 0 como 15000
+DefinePlayerSaldoBancoEnumPRO(0, 15000);
+
+// Adiciona 1000 ao saldo do banco do jogador 0
+AddPlayerSaldoBancoEnumPRO(0, 1000);
+
+// Remove 500 do saldo do banco do jogador 0
+RemovePlayerSaldoBancoEnumPRO(0, 500);
+
+// Obtém saldo do banco atual do jogador 0
+new saldoBanco = GetPlayerSaldoBancoEnumPRO(0);
+
+// Define saldo do caixa do jogador 0 como 8000
+DefinePlayerSaldoCaixaEnumPRO(0, 8000);
+
+// Adiciona 300 ao saldo do caixa do jogador 0
+AddPlayerSaldoCaixaEnumPRO(0, 300);
+
+// Remove 100 do saldo do caixa do jogador 0
+RemovePlayerSaldoCaixaEnumPRO(0, 100);
+
+// Obtém saldo do caixa atual do jogador 0
+new saldoCaixa = GetPlayerSaldoCaixaEnumPRO(0);
+
+// Define a vida do jogador 0 como 100
+DefinePlayerVidaEnumPRO(0, 100);
+
+// Adiciona 20 de vida ao jogador 0
+AddPlayerVidaEnumPRO(0, 20);
+
+// Remove 10 de vida do jogador 0
+RemovePlayerVidaEnumPRO(0, 10);
+
+// Obtém a vida atual do jogador 0
+new vida = GetPlayerVidaEnumPRO(0);
+
+// Define o colete do jogador 0 como 50
+DefinePlayerColeteEnumPRO(0, 50);
+
+// Adiciona 10 ao colete do jogador 0
+AddPlayerColetePROEnum(0, 10);
+
+// Remove 5 do colete do jogador 0
+RemovePlayerColeteEnumPRO(0, 5);
+
+// Obtém o colete atual do jogador 0
+new colete = GetPlayerColeteEnumPRO(0);
+
+// Define o estado de login do jogador 0 para 1 (logado)
+DefinePlayerLogedEnumPRO(0, 1);
+
+// Remove o estado de login do jogador 0 (logoff)
+RemovePlayerLogedEnumPRO(0, 1);
+
+// Obtém o estado atual de login do jogador 0
+new logado = GetPlayerIsLogedEnumPRO(0);
+
+// Define tentativas de login do jogador 0 para 0
+DefinePlayerErrosLoginEnumPRO(0, 0);
+
+// Adiciona 1 tentativa de login errada para o jogador 0
+AddPlayerErrosLoginEnumPRO(0, 1);
+
+// Remove 1 tentativa de login errada para o jogador 0
+RemovePlayerErrosLoginPRO(0, 1);
+
+// Obtém o número de tentativas erradas do jogador 0
+new errosLogin = GetPlayerErrosLoginEnumPRO(0);
+
+// Define posição do jogador 0 (x, y, z)
+DefinePlayerPos3DPRO(0, 1000.0, 2000.0, 30.0);
+
+// Obtém posição do jogador 0
+new Float:x, Float:y, Float:z;
+GetPlayerPos3DPRO(0, x, y, z);
+
+// Define dinheiro do jogador 0
+DefinePlayerMoneyPRO(0, 5000);
+
+// Define vida do jogador 0 (float)
+DefinePlayerHealthPRO(0, 100.0);
+
+// Define colete do jogador 0 (float)
+DefinePlayerArmourPRO(0, 50.0);
+
+// Define o score do jogador 0 como 10
+DefinePlayerScorePRO(0, 10);
+
+// Desativa bônus do tipo 1 para o jogador 0
+DesativeBonusForPlayerPRO(0, 1);
+
+// Desativa bônus do tipo 1 para todos
+DesativeBonusForAllPRO(1);
+
+// Desativa interiores
+DesativeInteriosPRO();
+
+// Corrige animações do jogador
+UsePlayerAnimationsFixPRO();
+
+// Obtém nome do jogador 0 (string)
+new pName[MAX_PLAYER_NAME];
+strcpy(pName, GetNamePro(0), sizeof(pName));
+
+// Define skin do jogador 0 para 123
+DefinePlayerSkinPRO(0, 123);
+
+// Dá arma 24 com 100 balas para o jogador 0
+DefinePlayerWeaponPRO(0, 24, 100);
+
+// Remove todas as armas do jogador 0
+RemovePlayerWeaponsPRO(0);
+
+// Respawna jogador 0
+DefineSpawnPlayerPRO(0);
+
+// Define informações completas de spawn
+DefineSpawnInfoPRO(0, 1, 123, 1000.0, 2000.0, 20.0, 0.0, 24, 100, 25, 200, 0, 0);
+
 ```
 
 ### Enviar mensagem para o jogador
