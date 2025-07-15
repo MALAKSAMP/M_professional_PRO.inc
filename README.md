@@ -10,6 +10,32 @@
 
 ---
 
+
+# M_professional_PRO.inc
+
+🧠 Include profissional desenvolvida por [MALAK (Marcos Aurélio Oliveira Silva)](https://github.com/MALAKSAMP) para programadores de SA-MP.
+
+## 📜 LICENÇA
+Esta include é protegida sob a **Licença MALAK-PRO v1.0**, que proíbe:
+
+- ❌ Remoção ou alteração dos créditos do autor  
+- ❌ Redistribuição com ou sem modificações  
+- ❌ Venda ou uso comercial  
+- ❌ Forks públicos contendo este código
+
+**O uso é permitido somente para fins pessoais e não comerciais.**
+
+Leia a licença completa no arquivo [`LICENSE.txt`](LICENSE.txt).
+
+## 📎 Links Oficiais
+- 💻 GitHub: [https://github.com/MALAKSAMP](https://github.com/MALAKSAMP)  
+- 🎓 Curso Oficial de PAWN: [https://pay.kiwify.com.br/msCeNOa](https://pay.kiwify.com.br/msCeNOa)  
+- 🎮 Discord Oficial: [https://discord.gg/VdFMF7rU9g](https://discord.gg/VdFMF7rU9g)
+
+---
+
+**© 2024-2025 MALAK. Todos os direitos reservados.**
+
 ## Introdução
 
 M_professional_PRO.inc é uma include profissional para SA-MP escrita em Pawn, que oferece uma abstração avançada para manipulação de dados do jogador, veículos, armas, mensagens e outras funcionalidades essenciais para gamemodes modernos.
