@@ -525,7 +525,7 @@ public OnPlayerConnect(playerid)
 
 ## Direitos Autorais e Licença
 
-Esta include é de autoria exclusiva de **MALAK (Marcos Aurélio Oliveira Silva)** e licenciada sob a licença **MIT**.
+Esta include é de autoria exclusiva de **MALAK (Marcos Aurélio Oliveira Silva)** e licenciada sob a licença **Licença MALAK-PRO v1.0**.
 
 É **proibido**:
 
