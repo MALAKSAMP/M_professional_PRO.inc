@@ -1,16 +1,38 @@
 
+/*
+ * M_professional_PRO.inc
+ * Desenvolvido por Marcos Aurélio Oliveira Silva (MALAK)
+ * Direitos Autorais © 2024-2025
+ *
+ * Licenciado sob a LICENÇA MALAK-PRO v1.0
+ * Proibido remover créditos, revender, redistribuir ou modificar publicamente este código.
+ * Uso apenas pessoal e não comercial, conforme os termos disponíveis no arquivo LICENSE.txt
+ *
+ * Contato oficial:
+ * GitHub: https://github.com/MALAKSAMP
+ * Curso: https://pay.kiwify.com.br/msCeNOa
+ * Discord: https://discord.gg/VdFMF7rU9g
+ */
 
 
 #if !defined _M_PROFESSIONAL_PRO_
 #define _M_PROFESSIONAL_PRO_
 // =====================================================================
-// M_professional_PRO.inc
-// Autor: MALAK (Marcos Aurélio Oliveira Silva)
-// Licença: MIT - É proibido remover os créditos ou alegar coautoria
-// Última atualização: 23/06/2025
-// Curso oficial: https://pay.kiwify.com.br/msCeNOa
-// Discord: https://discord.gg/VdFMF7rU9g
-// GitHub: https://github.com/MALAKSAMP
+/*
+ * M_professional_PRO.inc
+ * Desenvolvido por Marcos Aurélio Oliveira Silva (MALAK)
+ * Direitos Autorais © 2024-2025
+ *
+ * Licenciado sob a LICENÇA MALAK-PRO v1.0
+ * Proibido remover créditos, revender, redistribuir ou modificar publicamente este código.
+ * Uso apenas pessoal e não comercial, conforme os termos disponíveis no arquivo LICENSE.txt
+ *
+ * Contato oficial:
+ * GitHub: https://github.com/MALAKSAMP
+ * Curso: https://pay.kiwify.com.br/msCeNOa
+ * Discord: https://discord.gg/VdFMF7rU9g
+ */
+
 // =====================================================================
 //
 // AVISO IMPORTANTE:
