@@ -1,45 +1,38 @@
-MIT License
+LICENÇA MALAK-PRO v1.0
+Copyright (c) 2024-2025 Marcos Aurélio Oliveira Silva (MALAK)
+Todos os direitos reservados.
 
-Copyright (c) 2025 MALAK
+Esta include e todo o seu conteúdo estão protegidos pela presente licença.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. DIREITOS CONCEDIDOS
+   É concedida permissão gratuita para uso PESSOAL e NÃO COMERCIAL deste código, exclusivamente sob os seguintes termos:
+   - O autor original (MALAK) deve ser sempre creditado.
+   - O código pode ser utilizado em servidores de SA-MP, desde que os termos desta licença sejam integralmente respeitados.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. RESTRIÇÕES
+   É EXPRESSAMENTE PROIBIDO:
+   - Remover, ocultar ou alterar os créditos do autor (MALAK).
+   - Alegar coautoria, modificar e redistribuir como se fosse de outra pessoa.
+   - Compartilhar versões modificadas desta include, mesmo com os créditos mantidos.
+   - Vender, alugar, licenciar, comercializar ou lucrar com esta include ou com qualquer derivado dela.
+   - Utilizar este código como base para outros projetos públicos ou comerciais.
+   - Criar forks públicos contendo este código, com ou sem modificações.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. SOBRE MODIFICAÇÕES
+   - Você pode modificar este código para uso próprio e privado.
+   - É proibido publicar, compartilhar ou redistribuir qualquer versão modificada.
+   - Todas as modificações devem manter os créditos originais de forma visível.
 
-MIT License
+4. PENALIDADES
+   O descumprimento de qualquer cláusula desta licença constitui violação de direitos autorais (Lei nº 9.610/98 - Brasil), podendo resultar em:
+   - Retirada do conteúdo de plataformas como GitHub por DMCA;
+   - Denúncias formais;
+   - Medidas legais cabíveis.
 
-Copyright (c) 2025 Marcos Aurélio Oliveira Silva (MALAK)
+5. CONTATO OFICIAL
+   Autor: Marcos Aurélio Oliveira Silva (MALAK)
+   GitHub: https://github.com/MALAKSAMP  
+   Curso Oficial: https://pay.kiwify.com.br/msCeNOa  
+   Comunidade Discord: https://discord.gg/VdFMF7rU9g
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND...
-
----
-
-Esta include foi criada por **Marcos Aurélio Oliveira Silva (MALAK)**.  
-Você tem permissão total para usá-la, modificá-la e distribuí-la, **desde que os créditos sejam mantidos** e os links oficiais estejam presentes:
-
-Curso oficial: https://pay.kiwify.com.br/msCeNOa  
-Discord oficial: https://discord.gg/VdFMF7rU9g  
-GitHub oficial: https://github.com/MALAKSAMP
+Ao utilizar esta include, você concorda com todos os termos acima.
